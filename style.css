@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../bus2.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(244, 222, 201);
+    padding: 10px 20px;
+    border: 1px solid transparent; 
+    transition: 0.2s ease;
+}
+ul li a:hover{
+    background-color: rgb(111, 114, 114);
+
+}
+ul li.active a{
+    background-color: rgb(167, 204, 240);
+    color: rgb(34, 34, 32);
+}
+
+.logo img{
+    float: right;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+   
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position:absolute;
+    top: 4cm;
+    left: 2cm;  
+}
+.title h1{
+    color: rgb(230, 221, 102);
+    font-size: 85px;
+   
+    text-decoration: underline;
+    text-decoration-color: rgb(130, 235, 232);
+
+}
+.button{
+    position:absolute;
+   
+    top: 7cm;
+    left: 2cm;
+    color: rgb(244, 222, 201);
+    font-size: 30px;
+  
+}
+.btn{
+    margin-right: 15px;
+    border-radius: 20%;
+    border: 2px solid rgb(238, 237, 188);
+    color: rgb(232, 230, 216);
+    padding: 10px 30px;
+    transition: 0.2s ease;
+    
+}
+.btn:hover{
+    background-color: rgb(111, 114, 114);
+    color: rgb(34, 34, 32);
+}
